@@ -1,0 +1,16 @@
+<!-- todo_list/todo_app/templates/todo_app/todoitem_confirm_delete.html -->
+{% extends "base.html" %} {% block content %}
+
+<h3>Apagar Item</h3>
+
+<p>Tem certeza que deseja apagar: <b>{{ object.title }}</b></p>
+<p>da lista <i>{{ todo_list.title }}</i>?</p>
+
+<form method="POST">
+	{% csrf_token %}
+	<input value="Apagar" type="submit" />
+	<input value="Cancelar" type="button"
+		onclick="location.href='{% url "list" todo_list.id %}';" />
+</form>
+
+{% endblock %}

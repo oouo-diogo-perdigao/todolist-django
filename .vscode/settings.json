@@ -1,0 +1,10 @@
+{
+	"search.exclude": {
+		"**/.venv/": true
+	},
+	//#region (collapsed) html
+	"[html]": {
+		"editor.formatOnSave": false,
+	},
+	//#endregion
+}

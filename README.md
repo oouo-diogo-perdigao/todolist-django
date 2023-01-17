@@ -13,11 +13,14 @@ A tarefa dos pares de programadores da startup é construir o TodoIt, utilizando
 Após isso, a equipe deverá criar uma tag chamada tarefa-11 e atualizar todo o conteúdo do repositório remoto. Por fim, envie o link deste repositório pelo Canvas até a data de entrega.
 
 # Instruções para rodar (Power Shell 7):
-py -3 -m venv .venv
-.venv/Scripts/activate
-pip install -r requirements.txt
-
-django-admin startapp todo_app
-
-
-
+- py -3 -m venv .venv
+- .venv/Scripts/activate
+- pip install -r requirements.txt
+- python manage.py makemigrations todo_app
+- python manage.py migrate
+- python manage.py createsuperuser
+  - admin
+  - admin@todoapp.com
+  - abc123++
+  - 
+- python manage.py runserver
