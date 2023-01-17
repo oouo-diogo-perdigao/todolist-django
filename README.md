@@ -1,5 +1,9 @@
 # Trabalho tarefa 11 - Todo ListDjandgo
 
+Alunos:
+- Diogo Perdigão
+- Matheus Beaumord
+
 Olá Alunos,
 
 Uma startup está construindo um produto chamado TodoIt que permite os usuários controlarem as suas tarefas diárias. Para registrar, o usuário fornece o e-mail e a senha. Para cada tarefa, o título, a descrição, a categoria e a data de vencimento.
@@ -22,5 +26,4 @@ Após isso, a equipe deverá criar uma tag chamada tarefa-11 e atualizar todo o 
   - admin
   - admin@todoapp.com
   - abc123++
-  - 
 - python manage.py runserver
